@@ -1,0 +1,5 @@
+[book]
+authors = ["Nguyen Tuan Anh"]
+language = "en"
+src = "src"
+title = "Swifty"
