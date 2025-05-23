@@ -1,0 +1,22 @@
+name: Yêu cầu nội dung
+description: Đề xuất thêm nội dung Swift mới
+title: "[CONTENT] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: topic
+    attributes:
+      label: Chủ đề đề xuất
+      description: Chủ đề Swift nào bạn muốn thêm?
+      placeholder: "Ví dụ: SwiftUI, Combine, AsyncAwait, Property Wrappers..."
+    validations:
+      required: true
+      
+  - type: textarea
+    id: reason
+    attributes:
+      label: Lý do
+      description: Tại sao chủ đề này quan trọng?
+      placeholder: "Ví dụ: Kiến thức cần thiết cho iOS dev hiện đại"
+    validations:
+      required: true

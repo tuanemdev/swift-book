@@ -1,5 +1,10 @@
 [book]
-authors = ["Nguyen Tuan Anh"]
-language = "en"
-src = "src"
+authors = ["Tuấn Em"]
+language = "vi"
 title = "Swifty"
+
+[output.html]
+git-repository-url = "https://github.com/tuanemdev/swift-book"
+
+[output.html.fold]
+enable = true

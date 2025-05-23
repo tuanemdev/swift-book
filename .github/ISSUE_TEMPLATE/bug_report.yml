@@ -1,0 +1,22 @@
+name: Báo cáo lỗi
+description: Báo cáo lỗi trong nội dung Swift book
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: issue
+    attributes:
+      label: Mô tả lỗi
+      description: Lỗi gì và ở chương nào?
+      placeholder: "Ví dụ: Code trong chương 5 về Functions bị syntax error"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: expected
+    attributes:
+      label: Kết quả mong đợi
+      description: Nên như thế nào?
+      placeholder: "Code nên compile thành công"
+    validations:
+      required: true
