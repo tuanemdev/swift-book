@@ -1,10 +1,15 @@
 [book]
+title = "Swift && SwiftUI"
 authors = ["Tuấn Em"]
+description = "Học Swift và SwiftUI bằng niềm đam mê"
 language = "vi"
-title = "Swifty"
 
 [output.html]
 git-repository-url = "https://github.com/tuanemdev/swift-book"
+mathjax-support = true
 
 [output.html.fold]
 enable = true
+
+[output.html.code.hidelines]
+swift = "#"
