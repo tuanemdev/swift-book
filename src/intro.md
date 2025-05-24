@@ -10,9 +10,9 @@ let someThing = "sfsfsd";
 
 $$ \frac{1}{3} $$
 
-inline \\( \int x dx = \frac{x^2}{2} + C \\) test
+$ \int x dx = \frac{x^2}{2} + C $ test
 
-\\[ \mu = \frac{1}{N} \sum_{i=0} x_i \\]
+$$ \mu = \frac{1}{N} \sum\_{i=0} x_i $$
 
 <div class="warning">
 
