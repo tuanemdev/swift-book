@@ -6,6 +6,9 @@ language = "vi"
 
 [output.html]
 git-repository-url = "https://github.com/tuanemdev/swift-book"
+smart-punctuation = true
+additional-css = ["./assets/css/whichlang.css"]
+additional-js = ["./assets/js/whichlang.js", "./assets/js/mermaid.min.js", "./assets/js/mermaid-init.js"]
 
 [output.html.fold]
 enable = true
@@ -13,5 +16,13 @@ enable = true
 [output.html.code.hidelines]
 swift = "#"
 
+[preprocessor.alerts]
+
 [preprocessor.katex]
 after = ["links"]
+
+[preprocessor.image-size]
+command = "mdbook-image-size"
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"

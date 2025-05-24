@@ -23,6 +23,15 @@ jobs:
           mkdir mdbook
           curl -sSL $url | tar -xz --directory=./mdbook
           echo `pwd`/mdbook >> $GITHUB_PATH
+      - name: Install cargo-binstall
+        run: |
+          curl -L --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/cargo-bins/cargo-binstall/main/install-from-binstall-release.sh | bash
+      - name: Install mdBook plugins
+        run: |
+          cargo binstall --no-confirm mdbook-katex
+          cargo binstall --no-confirm mdbook-alerts
+          cargo binstall --no-confirm mdbook-image-size
+          cargo binstall --no-confirm mdbook-mermaid
       - name: Build Book
         run: |
           mdbook build

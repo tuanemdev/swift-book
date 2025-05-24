@@ -39,10 +39,13 @@ curl -L --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/cargo-
 cargo binstall mdbook
 ```
 
-4. Cài đặt mdbook-katex
+4. Cài đặt plugins bên thứ 3
 
 ```bash
 cargo binstall mdbook-katex
+cargo binstall mdbook-alerts
+cargo binstall mdbook-image-size
+cargo binstall mdbook-mermaid
 ```
 
 ## Sử dụng
