@@ -5,7 +5,7 @@ let someThing = "sfsfsd";
 ```
 
 ```swift
-{{#include ../code/test.swift:2}}
+{{#include ../swift/test.swift:2}}
 ```
 
 $$ \frac{1}{3} $$
@@ -23,6 +23,8 @@ fatigue," where people are trained to ignore them because they usually don't
 matter for what they're doing.
 
 </div>
+
+{% embed youtube id="DyTCOwB0DVw" loading="lazy" %}
 
 ```swift
 # func main() {

@@ -32,6 +32,7 @@ jobs:
           cargo binstall --no-confirm mdbook-alerts
           cargo binstall --no-confirm mdbook-image-size
           cargo binstall --no-confirm mdbook-mermaid
+          cargo binstall --no-confirm mdbook-embedify
       - name: Build Book
         run: |
           mdbook build

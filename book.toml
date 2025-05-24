@@ -26,3 +26,5 @@ command = "mdbook-image-size"
 
 [preprocessor.mermaid]
 command = "mdbook-mermaid"
+
+[preprocessor.embedify]

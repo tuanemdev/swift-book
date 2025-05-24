@@ -46,7 +46,16 @@ cargo binstall mdbook-katex
 cargo binstall mdbook-alerts
 cargo binstall mdbook-image-size
 cargo binstall mdbook-mermaid
+cargo binstall mdbook-embedify
 ```
+
+> [!NOTE]
+> Nếu gặp lỗi khi cài đặt với `cargo-binstall`, hãy thử cài đặt trực tiếp bằng
+> `cargo install`:
+>
+> ```bash
+> cargo install <crate_name>
+> ```
 
 ## Sử dụng
 
